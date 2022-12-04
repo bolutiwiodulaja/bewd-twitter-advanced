@@ -15,7 +15,6 @@ class TweetsController < ApplicationController
       render 'tweets/create'
     end
   end
-  
 
   def destroy
     token = cookies.signed[:twitter_session_token]
